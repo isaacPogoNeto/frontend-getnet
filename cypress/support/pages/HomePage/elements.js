@@ -1,4 +1,4 @@
 exports.el = {
-menuajuda: '//*[@id="menu-header-menu"]/li[3]/span',
-menucentralajuda: '//*[@id="menu-ajuda-sou-cliente-central-ajuda"]',
+menuHelp: '//*[@id="menu-header-menu"]/li[3]/span',
+menuHelpCenter: '//*[@id="menu-ajuda-sou-cliente-central-ajuda"]',
 }

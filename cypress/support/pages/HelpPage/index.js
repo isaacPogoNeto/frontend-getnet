@@ -4,7 +4,7 @@ import {el} from './elements'
 
 class HelpPage {
     search(keyword) {
-        cy.get(el.clicksearch).type(`${keyword}{enter}`)
+        cy.get(el.searchInput).type(`${keyword}{enter}`)
     }
   
     selectOption(optionText) {
@@ -12,7 +12,7 @@ class HelpPage {
     }
   
     verifyModalContent(expectedText) {
-        cy.get(el.modalcontent).should('contain.text', expectedText)
+        cy.get(el.modalTitle).should('contain.text', expectedText)
     }
   }
   

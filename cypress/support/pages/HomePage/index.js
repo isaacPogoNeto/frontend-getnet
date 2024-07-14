@@ -9,8 +9,8 @@ class HomePage {
     }
   
     goToHelpCenter() {
-        cy.xpath(el.menuajuda).click({force: true})
-        cy.xpath(el.menucentralajuda).click({force: true})
+        cy.xpath(el.menuHelp).click({force: true})
+        cy.xpath(el.menuHelpCenter).click({force: true})
     }
   }
   

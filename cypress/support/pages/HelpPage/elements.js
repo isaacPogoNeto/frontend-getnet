@@ -1,4 +1,4 @@
 exports.el = {
-    clicksearch: '#faq-search-input',
-    modalcontent: '.is-modal-open > .o-modal__content > .o-modal__title',
+    searchInput: '#faq-search-input',
+    modalTitle: '.is-modal-open > .o-modal__content > .o-modal__title',
     }
